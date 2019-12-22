@@ -19,12 +19,3 @@ Example:
 6)The program will create the out file with given name, saves the computed tree in Newick format.
 
 
-Example Run:
-
-(base) Ayca-MacBook-Pro:~ Ayca$ cd Desktop/Tascioglu_Ayca_hw5
-(base) Ayca-MacBook-Pro:Tascioglu_Ayca_hw5 Ayca$ 
-(base) Ayca-MacBook-Pro:Tascioglu_Ayca_hw5 Ayca$ make
-python buildUPGMA.py program.dat
-buildUPGMA --fasta sequences.fasta --match 5 --mismatch -3 --gapopen -8 --gapext -1 --out sequences.tree
-((C: 0.5 D: 0.5):10.5 (CD: 0.5 E: 0.5):10.5 (A: 7.0 B: 7.0):4.0 )
-(base) Ayca-MacBook-Pro:Tascioglu_Ayca_hw5 Ayca$ 
